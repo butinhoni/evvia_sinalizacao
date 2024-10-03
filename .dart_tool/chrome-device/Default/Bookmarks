@@ -1,0 +1,62 @@
+{
+   "checksum": "1c2a7f5de561df966307f63efed6d2f3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13308160445899497",
+            "date_last_used": "0",
+            "guid": "924e4789-8afd-4db2-8744-81d4d9f86b83",
+            "id": "6",
+            "name": "Samsung Tizen SmartTV (2015 - Present) Beta app Install from USB - Samsung Smart TV - Emby Community",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://emby.media/community/index.php?/topic/74969-samsung-tizen-smarttv-2015-present-beta-app-install-from-usb/",
+            "visit_count": 0
+         }, {
+            "date_added": "13349234238601782",
+            "date_last_used": "0",
+            "guid": "c4d7e447-21b8-4e48-bffb-e2637ca7eb89",
+            "id": "7",
+            "name": "",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "file:///C:/Users/guilh/Downloads/Ortega_Vieira_Manual%20de%20Dir%20e%20Proc%20Tributario-3ed.doc",
+            "visit_count": 0
+         } ],
+         "date_added": "13371846291532976",
+         "date_last_used": "0",
+         "date_modified": "13349234238601782",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13371846291532979",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Outros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13371846291532981",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos do celular",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCHELp+uMAQAAEgAqGExBSlpzVXhRdGFRZ2VkSWdYcXpOeVE9PUgDoAYHEqwBCAcSpwEKHEttTDJ6T1QxSkpBL01JbVY0Z0FCRkxHR2lUcz0SJGM0ZDdlNDQ3LTIxYjgtNGU0OC1iZmZiLWUyNjM3Y2E3ZWI4ORgAIAAoADDwlpzdzjE4iJmc3c4xQIiZnN3OMUocaW5pTDlqYjB0aVVkMVF1dURpbU52UGJkUmxBPVoeIhxYeng1Q1kvVHVwWFZxVit5U2pLa3hFTE5mcXc9ZQAAAADCPgJgBRKsAQgGEqcBChxnSUV1OFI1TENJZUw2UXlNMUFPdkV1RjdFa1E9EiQ5MjRlNDc4OS04YWZkLTRkYjItODc0NC04MWQ0ZDlmODZiODMYACAAKAAwgJXOhKoxOL+a5uDbMEC/mubg2zBKHE9DM0VDNlhwazhEYklWMHhWRlVUdyt1TXlvRT1aHiIcNHRNWkxoSWNTSlBLYWlDNG9VcXNVdzZKSXR3PWWmB6/Gwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNTVlODFkNjEtNjVhNy01YzlmLTg1YzYtZjMyNDg1N2YyZjM2GAAgACgAMJ34wfKvLjjBx4rj6C9AwceK4+gvShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDJiYzdlYjFmLTZmZDAtNTRlMi1iZmFjLTBjZjBjOTYyYmJlMBgAIAAoADCe+MHyry440ceK4+gvQNHHiuPoL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRkZWJiNTQxMS0yODI4LTU4NDktOWZiZi1kZTliYjM4ZTFiYmUYACAAKAAwovjB8q8uOI/IiuPoL0CPyIrj6C9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

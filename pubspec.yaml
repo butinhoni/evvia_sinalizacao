@@ -1,0 +1,40 @@
+name: levantamento_campo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  path_provider: ^2.1.4
+  win32: ^5.5.4
+  image_picker: ^0.8.6
+  geolocator: ^13.0.1
+  share_plus: ^10.0.0
+  flutter_archive: ^6.0.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/logo.png
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/logo.jpg"
+  min_sdk_android: 16

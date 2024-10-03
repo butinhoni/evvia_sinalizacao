@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "D:/Documentos/sistemaFlutter/levantamento_campo/windows",
+    "background.fullscreen": {
+        "images": [],
+        "opacity": 0.91,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    }
+}

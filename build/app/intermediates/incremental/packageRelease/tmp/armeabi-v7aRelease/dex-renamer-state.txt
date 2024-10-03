@@ -1,0 +1,4 @@
+#Thu Oct 03 16:21:56 AMT 2024
+base.0=D\:\\Documentos\\sistemaFlutter\\levantamento_campo\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

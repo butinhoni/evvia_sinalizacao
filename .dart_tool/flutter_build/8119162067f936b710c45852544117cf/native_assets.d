@@ -1,0 +1,1 @@
+ D:\\Documentos\\sistemaFlutter\\levantamento_campo\\.dart_tool\\flutter_build\\8119162067f936b710c45852544117cf\\native_assets.yaml: 
