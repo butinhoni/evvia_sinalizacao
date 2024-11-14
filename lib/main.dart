@@ -1,4 +1,4 @@
-// ignore_for_file: library_private_types_in_public_api
+// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously
 
 import 'dart:io';
 import 'package:flutter/services.dart';
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: 'Sinalização',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
@@ -124,6 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
+//pagina pra lançar a sinalização vertical
 class VerticalSinLancar extends StatefulWidget {
   @override
   _VerticalSinLancarState createState() => _VerticalSinLancarState();
@@ -235,7 +236,10 @@ class _VerticalSinLancarState extends State<VerticalSinLancar> {
 
   Future<void> _tirarFoto() async {
     final picker = ImagePicker();
-    final pickedFile = await picker.pickImage(source: ImageSource.camera);
+    final pickedFile = await picker.pickImage(
+      source: ImageSource.camera,
+      maxWidth: 800,
+      maxHeight: 600);
 
     if (pickedFile != null) {
       setState(() {
@@ -573,6 +577,7 @@ class _VerticalSinLancarState extends State<VerticalSinLancar> {
   }
 }
 
+//pagina pra mostar sinalização vertical
 class MostrarDados extends StatefulWidget {
   @override
   _MostrarDadosState createState() => _MostrarDadosState();
@@ -688,6 +693,7 @@ class _MostrarDadosState extends State<MostrarDados> {
   }
 }
 
+//função que monta o titulo das paginas
 class Titulo extends StatelessWidget {
   const Titulo({
     super.key,
@@ -726,6 +732,7 @@ class Titulo extends StatelessWidget {
   }
 }
 
+//monta os cartões 
 class CartaoUltimoKm extends StatelessWidget {
   const CartaoUltimoKm({
     super.key,
@@ -774,6 +781,7 @@ class CartaoContagem extends StatelessWidget {
   }
 }
 
+//lança sinalização horizontal
 class HorizontalSinLancar extends StatefulWidget {
   @override
   _HorizontalSinLancarState createState() => _HorizontalSinLancarState();
@@ -876,7 +884,10 @@ class _HorizontalSinLancarState extends State<HorizontalSinLancar>{
 
   Future<void> _tirarFoto() async {
     final picker = ImagePicker();
-    final pickedFile = await picker.pickImage(source: ImageSource.camera);
+    final pickedFile = await picker.pickImage(
+      source: ImageSource.camera,
+      maxWidth: 800,
+      maxHeight: 600);
 
     if (pickedFile != null) {
       setState(() {
@@ -1151,6 +1162,7 @@ class _HorizontalSinLancarState extends State<HorizontalSinLancar>{
   }
 }
 
+//mostra os dados da sinalização horizontal
 class HorizontalMostrarDados extends StatefulWidget {
   @override
   _HorizontalMostrarDadosState createState() => _HorizontalMostrarDadosState();
